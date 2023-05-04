@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     StringRequest request;
     Button buttons;
     TextView itemname, itemdescription, itemstatus;
-    public final static String URLS = "http://192.168.83.81/project/abc.php";
+    public final static String URLS = "http://192.168.186.81/project/abc.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onResponse(String response) {
 
-
+               tv.setText("");
 
               //  Toast.makeText(MainActivity.this,response.toString(),Toast.LENGTH_LONG).show();
                 String[] all = response.split(",");
