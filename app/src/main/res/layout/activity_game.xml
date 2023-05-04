@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0C0C0C"
+    android:orientation="vertical"
+    tools:context=".Game">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/QuestionCard"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:background="#123123"
+        app:cardBackgroundColor="#045008"
+        app:cardCornerRadius="10dp"
+
+        app:cardElevation="10dp">
+
+        <TextView
+            android:id="@+id/LevelCounter"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+
+            android:background="#8BC34A"
+            android:gravity="center"
+            android:text="Question 1"
+            android:textColor="#fff"
+            android:textSize="26sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/Qtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="SomeDummy Question"
+            android:textColor="#fff"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="20dp"
+        android:layout_height="50dp"
+        android:onClick="OptionA"
+        app:cardBackgroundColor="#C18B8B"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="50dp"
+        android:id="@+id/option1Card"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/option1"
+
+            android:text="Yes"
+            android:layout_gravity="center"
+
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="20dp"
+        android:onClick="OptionB"
+        app:cardBackgroundColor="#C18B8B"
+        app:cardElevation="10dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="50dp"
+        android:id="@+id/option2Card"
+        android:background="#123123">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/option2"
+            android:text="No"
+            android:layout_gravity="center"
+
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="#8BC34A"
+        android:text="Next"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:visibility="gone"
+
+        android:text="TextView" />
+
+
+</LinearLayout>

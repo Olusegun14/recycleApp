@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">recycleApp</string>
+
+    <string-array name="list">
+        <item>paper</item>
+        <item>Laptop Batteries</item>
+        <item>Aerosols</item>
+        <item>Batteries</item>
+        <item>Electric Kettle</item>
+        <item>Black plastic packaging</item>
+        <item>toasters</item>
+        <item>blenders</item>
+        <item>Transistor Radios</item>
+        <item>CD/DVD players</item>
+        <item>Phones</item>
+        <item>TVs</item>
+        <item>Printers</item>
+        <item>Lamps</item>
+        <item>Torches</item>
+        <item>Christmas tree lights</item>
+        <item>vacuum cleaners</item>
+        <item>Computers (PCs),</item>
+        <item>Food and drink pouches</item>
+        <item>Fire extinguishers</item>
+        <item>Wet wipes</item>
+        <item>Cameras</item>
+        <item>Fridges</item>
+        <item>Camcorders</item>
+        <item>Foil</item>
+        <item>Laptops</item>
+        <item>Fan</item>
+        <item>wire insulation</item>
+        <item>Cell phones</item>
+        <item>Alkaline Batteries</item>
+        <item>Cables</item>
+        <item>Curling Irons</item>
+        <item>Hoverboards</item>
+        <item>Telephones</item>
+        <item>Game Consoles</item>
+        <item>Small Appliances</item>
+        <item>Car Batteries</item>
+        <item>vacuum cleaners</item>
+        <item>Walking aids</item>
+        <item>Glass cookware</item>
+        <item>Light bulbs and tubes</item>
+        <item>Drinking glasses</item>
+        <item>Microwave Plates</item>
+        <item>Ceramic tiles</item>
+        <item>Asbestos</item>
+        <item>Vape batteries</item>
+        <item>Hair Dryer</item>
+        <item>Plasterboard</item>
+        <item>Drink Cartons</item>
+        <item>Kitchen towel</item>
+        <item>Paper coffee cups</item>
+        <item>Polystyrene plastic</item>
+        <item>Smoke Detector</item>
+        <item>Printer cartridges</item>
+        <item>Cookers</item>
+        <item>Washing Machine</item>
+        <item>Tumble Dryer</item>
+        <item>Dish Washer</item>
+        <item>Tablets</item>
+        <item>Computer monitors</item>
+        <item>Laptop Mouse</item>
+        <item>Radiator</item>
+        <item>Styrofoam</item>
+        <item>Plastic Shower Curtains</item>
+        <item>Medical Waste</item>
+        <item>Waxed Paper and Cartons</item>
+        <item>Packing Peanuts</item>
+        <item>Paper Receipts</item>
+        <item>Building materials</item>
+        <item>Plastic PVC packaging</item>
+        <item>VHS tapes</item>
+        <item>Cassettes</item>
+        <item>Clinical Waste</item>
+        <item>Keys</item>
+        <item>Keyboards</item>
+        <item>Inhalers</item>
+        <item>Gas bottles</item>
+        <item>Router</item>
+        <item>Remote Control</item>
+        <item>Mattress</item>
+        <item>plastic</item>
+    </string-array>
+</resources>
